@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 20;
+  box-sizing: border-box;
+}
+
+#new-player-form {
+  background-color: transparent;
+  border: 5px solid black;
+  border-radius: 10px;
+  height: 30vh;
+  width: 50vh;
+  flex-wrap: wrap;
+}
+
+#all-players-container {
+  display: grid;
+  grid-template-columns: repeat(5, 50%);
+  background-color: blue;
+  border: 5px solid black;
+  border-radius: 10px;
+  height: 30vh;
+}
+
+img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+#instructions {
+  width: 18vw;
+  background-color: rgb(255, 255, 255, 0.5);
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+#add-pet {
+  width: 25vw;
+  background-color: rgb(255, 255, 255, 0.5);
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+input[type="url"] {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  background-color: rgb(255, 255, 255, 0.5);
+}
